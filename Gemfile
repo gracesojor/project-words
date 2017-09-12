@@ -36,6 +36,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap',            '~> 4.0.0.alpha6'
 gem 'jquery-rails'
 
+# Use ActiveModel has_secure_password
+gem 'bcrypt',               '~> 3.1.11'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+
 
 
 group :development, :test do
