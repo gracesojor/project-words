@@ -14,11 +14,14 @@ Rails.application.routes.draw do
 
 
   #StaticPages
-  
   get  '/help',    to: 'static_pages#help', as: 'help'
   get  '/about',   to: 'static_pages#about', as: 'about'
   get  '/contact', to: 'static_pages#contact', as: 'contact'
 
+  #Users
+  get  '/signup',  to: 'users#new'
+
+  resources :users
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
