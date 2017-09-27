@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<div id="app" class="container-fullwidth">
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+      <a class="navbar-brand" href="#">ElearningSystem</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <%= link_to "Home", root_path %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Help", help_path %>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+              <li>
+                <%= link_to "Log in", '#' %>     
+              </li>  
+          </ul>        
+      </div>
+    </nav>
+</div>
