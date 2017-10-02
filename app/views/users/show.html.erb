@@ -1,1 +1,17 @@
-<%= @user.last_name %>, <%= @user.first_name %>
+<div class="panel panel-primary">
+  <legend>
+    User Profile
+  </legend>
+  <div class="panel-body">
+    <div class="row">
+      <aside class="col-md-4">
+        <div class="row user-profile">
+          <%= link_to image_tag(@user.avatar, size: "150x150"), @user %>
+        </div>
+        <div class="row user-profile">
+          <h1>Hi, I am <%= @user.last_name %>, <%= @user.first_name %></h1>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>

@@ -40,6 +40,9 @@ gem 'jquery-rails'
 gem 'bcrypt',               '~> 3.1.11'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
+gem 'carrierwave',             '1.1.0'
+gem 'mini_magick',             '4.7.0'
+gem 'fog',                     '1.40.0'
 
 
 
