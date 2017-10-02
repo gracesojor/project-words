@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
 @import "bootstrap";
 @import "layouts/_header.scss";
 @import "layouts/_signup.scss";
@@ -26,6 +27,7 @@ $gray-darker:#eaeaeb;
 $gray-light:#eaeaea;  
 $gray-lighter:#eaeaea;  
 $gray:#eaeaea;  
+
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -294,7 +296,9 @@ span.picture {
   }
 }
 
+
 .jumbotron{
   color: #000000;
   background-color: #f9fbe7;
+
 }
