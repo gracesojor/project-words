@@ -14,20 +14,11 @@
  *= require_self
  */
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e
 @import "bootstrap";
 @import "layouts/_header.scss";
 @import "layouts/_signup.scss";
 @import "layouts/_login.scss";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -36,16 +27,11 @@ $gray-light:#eaeaea;
 $gray-lighter:#eaeaea;  
 $gray:#eaeaea;  
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
 }
-
 
 /* universal */
 
@@ -71,7 +57,6 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
-
 
 /* typography */
 
@@ -306,11 +291,8 @@ span.picture {
     border: 0;
   }
 }
-<<<<<<< HEAD
 
 .jumbotron{
   color: #000000;
   background-color: #f9fbe7;
 }
-=======
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e

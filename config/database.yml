@@ -11,27 +11,15 @@ default: &default
 
 development:
   <<: *default
-<<<<<<< HEAD
   database: db/projectwords_development.sqlite3
-=======
-  database: db/development.sqlite3
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-<<<<<<< HEAD
   database: db/projectwords_test.sqlite3
 
 production:
   <<: *default
   database: db/projectwords_production.sqlite3
-=======
-  database: db/test.sqlite3
-
-production:
-  <<: *default
-  database: db/production.sqlite3
->>>>>>> f874be172855e94e056cb5457f2581fe30677c9e
