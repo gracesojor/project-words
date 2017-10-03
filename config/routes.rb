@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  namespace :admin do
+    get 'dashboard/index'
+  end
+
   get 'users/new'
 
   root 'static_pages#index'
@@ -26,5 +30,13 @@ Rails.application.routes.draw do
   delete '/logout',  to: 'sessions#destroy'
 
   resources :users
+
+
+  #Admin Dashboard
+  namespace :admin do
+    root 'dashboard#index'
+    get 'dashboard/index'
+  end
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
